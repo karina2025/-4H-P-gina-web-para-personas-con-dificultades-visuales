@@ -1,0 +1,65 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+   /* background: blue;*/
+
+}
+
+.header__container{
+    background: cadetblue;
+    display: flex;
+    margin: auto;
+
+}
+.div__menu{
+    background:pink;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    /*display: flex;*/
+}
+
+.div__menu span{
+
+    background: salmon;
+    font-size: 24px;
+    letter-spacing: normal;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 20px;
+
+}
+
+.div__agua{
+    background:sienna;
+}
+
+.div__agua h2{
+    background:green;
+    font-size: 48px;
+
+}
+
+.div__agua img{
+
+    display: flex;
+}
+
+
+/**************************************main**************/
+
+
+main{
+
+    background: yellow;
+}
+
+.div__espan{
+    background: lightcoral;
+}
