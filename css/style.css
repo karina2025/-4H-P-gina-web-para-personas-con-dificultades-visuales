@@ -7,49 +7,88 @@
 }
 
 body{
-   /* background: blue;*/
+     background:pink;
 
 }
 
 .header__container{
-    background: cadetblue;
+    background:#141414;
     display: flex;
-    margin: auto;
+
 
 }
+.header__container img{
+
+background: pink;
+display: flex;
+align-items: end;
+
+
+
+}
+
 .div__menu{
-    background:pink;
-    padding: 20px;
+   /* background:pink;*/
+    padding: 10px;
+    padding-top: 3%;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 141px;
+    margin-left: 20%;
+    margin-right: 30%;
+
     /*display: flex;*/
 }
 
 .div__menu span{
 
-    background: salmon;
+   /* background: salmon;*/
     font-size: 24px;
     letter-spacing: normal;
     justify-content: space-between;
     flex-direction: row;
     flex-grow: 20px;
+    width: 119px;
+    height: 28;
+    margin: 3%;
+    color: aliceblue;
+
 
 }
 
 .div__agua{
-    background:sienna;
+    /* background:sienna; */
+    width: 20%;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
 }
 
 .div__agua h2{
-    background:green;
+   /* background:green;*/
     font-size: 48px;
+    display: flex;
+    border-radius: 48px;
+    height: 46%;
+    width: 112%;
+
+    
+   background: beige;
 
 }
 
 .div__agua img{
-
-    display: flex;
+    width: 15%;
 }
+
+.div__icons{
+    background: gray;
+
+}
+
+
 
 
 /**************************************main**************/
@@ -57,9 +96,40 @@ body{
 
 main{
 
-    background: yellow;
+    background:#141414
+
 }
 
-.div__espan{
+.div__espan {
     background: lightcoral;
+    color: aliceblue;
+    font-size: 56.4px;
+    margin: 20px;
+    width: 685px;
+    height: 91px;
+}
+.div__espan p{
+    background: green;
+    font-size: 26px;
+    margin: 0px;
+}
+
+
+.div__titulo{
+    /* background: darkcyan; */
+    /* background: khaki; */
+    margin: 10%;
+    margin-top: auto;
+    margin-right: 20px;
+    margin-left: 0px;
+    width: 707px;
+    height: 391px;
+    display: flex;
+}
+
+.div__titulo img{
+
+    /* background: tomato; */
+    margin: auto;
+    margin-left: 20%;
 }
