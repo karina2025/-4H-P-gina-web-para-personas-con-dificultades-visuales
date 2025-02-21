@@ -7,19 +7,20 @@
 }
 
 body{
-     background:pink;
+      /* background:pink;  */
+      background-color: #141414;
 
 }
 
 .header__container{
-    background:#141414;
+     background:#141414;
     display: flex;
 
 
 }
 .header__container img{
 
-background: pink;
+/* background: pink; */
 display: flex;
 align-items: end;
 
@@ -96,20 +97,28 @@ align-items: end;
 
 main{
 
-    background:#141414
+     background:#141414; 
+    margin: 5%;
+    margin-top: 5%;
+    margin-block-start: 0%;
+    margin-left: 1%;
+    margin-right: 5%;
+
 
 }
 
 .div__espan {
-    background: lightcoral;
+    /* background: lightcoral; */
     color: aliceblue;
     font-size: 56.4px;
     margin: 20px;
     width: 685px;
     height: 91px;
+    margin-bottom: 10%;
+    margin-left: 10%;
 }
 .div__espan p{
-    background: green;
+    /* background: green; */
     font-size: 26px;
     margin: 0px;
 }
@@ -117,10 +126,11 @@ main{
 
 .div__titulo{
     /* background: darkcyan; */
-    /* background: khaki; */
+     /* background: khaki; 
     margin: 10%;
-    margin-top: auto;
+    /* margin-top: 30%%; */
     margin-right: 20px;
+    gap: 10px;
     margin-left: 0px;
     width: 707px;
     height: 391px;
@@ -132,4 +142,41 @@ main{
     /* background: tomato; */
     margin: auto;
     margin-left: 20%;
+}
+
+.intrucciones{
+
+    background-color: aqua;
+
+}
+
+.intruciones h2{
+    background: khaki;
+    font-size: 64px;
+    width: 363px;
+    height: 71px;
+
+}
+
+.div__orden{
+
+    background: khaki;
+    font-size: 20px;
+    margin: 26%;
+
+}
+
+.div__orden h2{
+    background: green;
+    width: 363px;
+    height:71px ;
+
+}
+
+.div__orden p{
+
+    background: skyblue;
+    width: 654px;
+    height: 146px;
+
 }
