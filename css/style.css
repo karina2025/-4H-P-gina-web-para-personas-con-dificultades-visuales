@@ -145,13 +145,14 @@ main{
 }
 
 .intrucciones{
+    background: #141414;
 
-    background-color: aqua;
+    /* background-color: aqua; */
 
 }
 
 .intruciones h2{
-    background: khaki;
+    /* background: khaki; */
     font-size: 64px;
     width: 363px;
     height: 71px;
@@ -160,23 +161,28 @@ main{
 
 .div__orden{
 
-    background: khaki;
+     /* background: khaki;  */
     font-size: 20px;
-    margin: 26%;
+    margin: 10%;
+    margin-left: 25%;
 
 }
 
 .div__orden h2{
-    background: green;
+    /* background: green; */
     width: 363px;
     height:71px ;
+    margin-left:25%;
+    color: aliceblue;
 
 }
 
 .div__orden p{
 
-    background: skyblue;
+    /* background: skyblue; */
     width: 654px;
     height: 146px;
+    color: aliceblue;
+    margin-left: 20%;
 
 }
